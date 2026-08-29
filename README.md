@@ -1,8 +1,6 @@
 # House-price-prediction-regression-analysis-ml
 End-to-end housing price prediction and regression analysis using Python and scikit-learn, including EDA, data preprocessing, feature analysis, model evaluation, and residual analysis.
 
-# House Price Prediction using Linear Regression
-
 ## Overview
 
 This project uses **Linear Regression** to predict house prices based on different property characteristics.
