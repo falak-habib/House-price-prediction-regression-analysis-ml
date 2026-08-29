@@ -27,23 +27,31 @@ The project uses a housing dataset containing information about house size, qual
 
 ## Dataset
 
-The dataset contains information about residential properties and their sale prices.
+The dataset contains **21,613 house records** and 21 columns. The target variable is `price`, while the remaining columns describe different characteristics of each property.
 
-Some of the features explored in this project include:
-
-| Feature        | Description                               |
-| -------------- | ----------------------------------------- |
-| `price`        | Sale price of the house — target variable |
-| `sqft_living`  | Living area of the house in square feet   |
-| `sqft_lot`     | Total lot/land area in square feet        |
-| `sqft_above`   | Above-ground living area                  |
-| `grade`        | Overall grade/quality of the house        |
-| `bedrooms`     | Number of bedrooms                        |
-| `bathrooms`    | Number of bathrooms                       |
-| `yr_built`     | Year the house was built                  |
-| `yr_renovated` | Year the house was renovated              |
-| `condition`    | Overall condition of the house            |
-| `floors`       | Number of floors                          |
+| Feature         | Description                                                                                                           |
+| --------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `id`            | Unique identifier assigned to each house record.                                                                      |
+| `date`          | Date on which the house sale was recorded.                                                                            |
+| `price`         | Sale price of the house. **Target variable** for prediction.                                                          |
+| `bedrooms`      | Number of bedrooms in the house.                                                                                      |
+| `bathrooms`     | Number of bathrooms in the house.                                                                                     |
+| `sqft_living`   | Interior living area of the house in square feet.                                                                     |
+| `sqft_lot`      | Total area of the property/lot in square feet.                                                                        |
+| `floors`        | Number of floors in the house.                                                                                        |
+| `waterfront`    | Indicates whether the property has a waterfront view/access (`0` = No, `1` = Yes).                                    |
+| `view`          | Indicates the quality of the property's view, represented by an ordinal score.                                        |
+| `condition`     | Overall condition of the house, represented by a rating/score.                                                        |
+| `grade`         | Overall construction and design quality of the house, represented by a rating/score.                                  |
+| `sqft_above`    | Living area located above ground level, measured in square feet.                                                      |
+| `sqft_basement` | Basement area of the house in square feet.                                                                            |
+| `yr_built`      | Year in which the house was originally built.                                                                         |
+| `yr_renovated`  | Year in which the house was last renovated. A value of `0` generally indicates that the house has not been renovated. |
+| `zipcode`       | ZIP code identifying the geographical location of the property.                                                       |
+| `lat`           | Latitude coordinate of the property's location.                                                                       |
+| `long`          | Longitude coordinate of the property's location.                                                                      |
+| `sqft_living15` | Average living area of the 15 nearest houses, measured in square feet.                                                |
+| `sqft_lot15`    | Average lot size of the 15 nearest houses, measured in square feet.                                                   |
 
 ---
 
